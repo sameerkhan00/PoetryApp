@@ -22,12 +22,12 @@ const Splash=  (props) => {
            
           <View style={styles.container}>
           <View style={{justifyContent:'center',flexDirection:'row', marginTop:60}}>
-          <Image source={require('../assests/images/images.png')} tintColor="#FFFF" 
-           style={{width:100,height:100}}/>
+          <Image source={require('../assests/images/puzz.png')}  
+           style={{width:200,height:200,borderRadius:20,borderColor:'black',borderWidth:3,padding:5}}/>
           </View>
-          <View>
-              <Text style={{color:'white',fontSize:50,}}>شاعری</Text>
-          </View>
+          {/* <View>
+              <Text style={{color:'white',fontSize:50,}}>Puzzle</Text>
+          </View> */}
 
     
 </View>
@@ -43,7 +43,7 @@ container: {
 flex: 1,
 justifyContent: 'center',
 alignItems: 'center',
-backgroundColor: '#065e54',
+backgroundColor: 'yellow',
 
 
 },
